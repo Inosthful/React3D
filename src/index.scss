@@ -1,0 +1,46 @@
+@import "styles/settings";
+@import "styles/hero";
+@import "styles/who";
+@import "styles/work";
+
+
+  *{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+
+  }
+  .container{
+    height: 100vh;
+    scroll-behavior:scroll;
+    overflow-y: auto;
+    scrollbar-width: none;
+    color: white;
+    background: url("./img/bg.jpeg");
+    &::-webkit-scrollbar{
+      display: none;
+    }
+  }
+
+  .heroSection{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .whoSection{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+  }
+  .worksSection{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+  }
+  .contactSection{
+    height: 100vh;
+  }
+
+

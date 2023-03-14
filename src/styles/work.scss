@@ -1,0 +1,42 @@
+.containerWork{
+    width: 1400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftWork{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    
+}
+
+.listWork{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+}
+
+.listItemWork{
+    font-size: 100px;
+    font-weight: bold;
+    color: transparent;
+    -webkit-text-stroke:1px white ;
+    cursor: pointer;
+
+    &::after{
+        content: "Web Design";
+        position: absolute;
+        top: 0;
+        left: 0;
+        color: pink;
+    }
+}
+
+
+
+.rightWork{
+    flex: 1;
+}
